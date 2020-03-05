@@ -21,7 +21,7 @@ class CreateTodo extends Component {
         <form>
           <p>
             <label>add todo</label>
-            <input type="text" onChange={this.handleChange} />
+            <input type="text" onChange={this.handleChange} value={this.state.text} />
           </p>
           <input type="submit" />
         </form>
