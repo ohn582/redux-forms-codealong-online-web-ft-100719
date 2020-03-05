@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
  
 class CreateTodo extends Component {
+  
+  handleChange = (event) => {
+    
+  }
+  
   render() {
     return(
       <div>
