@@ -24,7 +24,7 @@ class CreateTodo extends Component {
   render() {
     return(
       <div>
-        <form>
+        <form onSubmit={this.}>
           <p>
             <label>add todo</label>
             <input type="text" onChange={this.handleChange} value={this.state.text} />
