@@ -2,8 +2,10 @@ import React, { Component } from 'react'
  
 class CreateTodo extends Component {
   
-  handleChange = (event) => {
-    
+  handleChange(event) = {
+    this.setState({
+      
+    })
   }
   
   render() {
